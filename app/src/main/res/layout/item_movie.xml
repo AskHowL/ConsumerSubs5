@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cardview_dark_background"
+    android:padding="@dimen/activity_vertical_margin">
+
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="220dp"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/img_movie"
+        android:contentDescription="@string/image"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title_movie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:textColor="@color/colorWhiteforText"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_desc_movie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="7"
+            android:ellipsize="end"
+            android:textColor="@color/colorWhiteforText"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
